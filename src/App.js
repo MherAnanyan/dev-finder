@@ -4,7 +4,7 @@ function App() {
     return (
         <div className="App">
             {' '}
-            <p> bla bla bla</p>
+            <p> bla bla</p>
         </div>
     )
 }
