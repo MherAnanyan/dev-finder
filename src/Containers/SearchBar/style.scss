@@ -1,0 +1,22 @@
+@import '../../assets/styles/variables';
+
+.searchBar-wrapper {
+  .searchBar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $dark-secondary;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+  }
+}
+
+.light {
+  .searchBar-content {
+    background-color: $light-white;
+    box-shadow: 2px 9px 19px -2px #697b993b;
+  }
+  input {
+    color: $light-primary;
+  }
+}

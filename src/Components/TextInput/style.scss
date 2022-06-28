@@ -1,0 +1,37 @@
+@import '../../assets/styles/variables';
+
+.input-wrapper {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  input {
+    flex: 1;
+    border-radius: 1rem;
+    padding: 16px;
+    background-color: transparent;
+    color: $dark-white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    width: 70%;
+    caret-color: $primary-btns;
+    &::placeholder {
+      color: $light-white;
+    }
+  }
+  .err-msg {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    color: red;
+  }
+}
+
+.light {
+  input::placeholder {
+    color: $light-primary;
+    opacity: 1; /* Firefox */
+  }
+}

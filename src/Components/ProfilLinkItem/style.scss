@@ -1,0 +1,34 @@
+@import '../../assets/styles/variables';
+
+.link-item-wrapper {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 0.5rem;
+  }
+  .Link-icons {
+    fill: $dark-white;
+  }
+}
+
+.disabled {
+  .Link-icons {
+    fill: $light-primary;
+  }
+  .profile-item-title {
+    color: $light-primary;
+  }
+}
+
+.light {
+  .link-item-wrapper {
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 0.5rem;
+    }
+    .Link-icons {
+      fill: $light-primary;
+    }
+  }
+}

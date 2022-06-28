@@ -1,0 +1,56 @@
+@import '../../assets/styles/variables';
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  .mode-switcher-btn {
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    p {
+      text-transform: uppercase;
+      color: $dark-white;
+      font-weight: 600;
+    }
+    .SvgMode {
+      fill: $dark-white;
+    }
+    &:hover {
+      p {
+        color: $light-primary;
+      }
+      .SvgMode {
+        fill: $light-primary;
+      }
+    }
+  }
+  .header-titel {
+    color: $dark-white;
+    font-family: 'SpaceMonoBold';
+  }
+}
+
+.light {
+  .header-titel {
+    color: $light-primary;
+  }
+  .mode-switcher-btn {
+    p {
+      color: $light-primary;
+    }
+    .SvgMode {
+      fill: $light-primary;
+    }
+    &:hover {
+      p {
+        color: $dark-secondary;
+      }
+      .SvgMode {
+        fill: $dark-secondary;
+      }
+    }
+  }
+}
