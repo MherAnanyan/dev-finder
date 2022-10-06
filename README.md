@@ -1,4 +1,4 @@
-### Objective
+<!-- ### Objective
 
 Using JavaScript and React, your task is to build a Github User Search Tool.
 
@@ -44,3 +44,4 @@ Please organize, design, test, and document your code as if it were going into p
 All the best and happy coding,
 
 The Score Digital Team
+ -->
